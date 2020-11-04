@@ -55,11 +55,5 @@
     28% {
         transform: translate(0, 0.5px) rotate(1.5deg);
     }
-    * {
-        cursor: url("/medias/imgs/zhengchang.ico"),auto !important;
-    }
-
-    :active {
-        cursor: url("/medias/imgs/dianji.ico"),auto !important;
-    }
+    
 }
