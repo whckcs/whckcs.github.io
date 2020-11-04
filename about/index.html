@@ -515,7 +515,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"公开","value":4},{"name":"个人","value":4},{"name":"官方","value":1}],
+                data: [{"name":"官方","value":1},{"name":"公开","value":4},{"name":"个人","value":4}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -818,6 +818,12 @@ $(function () {
     
 
         
+        <script type="text/javascript">
+            var OriginTitile=document.title,st;
+            document.addEventListener("visibilitychange",function(){
+                document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+            })
+        </script>
     
     
 </body>
