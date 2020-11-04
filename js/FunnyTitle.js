@@ -3,7 +3,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         $('[rel="icon"]').attr('href', "https://cdn.jsdelivr.net/gh/Yafine/cdn@2.2/source/favicon.png");
-        document.title = 'ヽ(●-`Д´-)ノ你要玩捉迷藏嘛';
+        document.title = 'ヽ(●-`Д´-)ノ别走嘛别走嘛';
         clearTimeout(titleTime);
     }
     else {
