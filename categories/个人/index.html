@@ -299,20 +299,20 @@
                 
                 
                 
-                <a href="/categories/%E5%AE%98%E6%96%B9/" title="官方: 1">
+                <a href="/categories/%E5%85%AC%E5%BC%80/" title="公开: 4">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">官方
-                        <span class="tag-length">1</span>
+                            style="background-color: #F9EBEA;">公开
+                        <span class="tag-length">4</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/%E5%85%AC%E5%BC%80/" title="公开: 4">
+                <a href="/categories/%E5%AE%98%E6%96%B9/" title="官方: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">公开
-                        <span class="tag-length">4</span>
+                            style="background-color: #F5EEF8;">官方
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -688,7 +688,13 @@ $(function () {
                 document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
             })
         </script>
-    
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+        }
+        </script>
     
 </body>
 
