@@ -6,6 +6,6 @@ http://whckcs.github.io/friends/index.html
 http://whckcs.github.io/contact/index.html
 http://whckcs.github.io/tags/index.html
 http://whckcs.github.io/
+http://whckcs.github.io/tags/%E7%94%9F%E6%B4%BB/
 http://whckcs.github.io/tags/%E6%95%99%E7%A8%8B/
 http://whckcs.github.io/tags/%E5%8D%9A%E5%AE%A2/
-http://whckcs.github.io/tags/%E7%94%9F%E6%B4%BB/
