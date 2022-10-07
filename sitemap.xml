@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://whck.cc/2022/10/06/li-yong-hexo-zi-jian-bo-ke-zhi-nan/</loc>
+    
+    <lastmod>2022-10-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://whck.cc/2022/10/06/za-nian/</loc>
+    
+    <lastmod>2022-10-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://whck.cc/2022/10/07/shi-me-shi-yong-hu-zi-chuan-bo/</loc>
     
     <lastmod>2022-10-07</lastmod>
@@ -14,24 +32,6 @@
     <loc>https://whck.cc/about/index.html</loc>
     
     <lastmod>2022-10-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whck.cc/2022/10/06/li-yong-hexo-zi-jian-bo-ke-zhi-nan/</loc>
-    
-    <lastmod>2022-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://whck.cc/2022/10/06/za-nian/</loc>
-    
-    <lastmod>2022-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
