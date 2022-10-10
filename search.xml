@@ -178,29 +178,31 @@ permalink_defaults:<span aria-hidden="true" class="line-numbers-rows"><span></sp
 <ul>
 <li>建立一个本地存放博客文件的文件夹</li>
 <li>右键git bush依次执行下面的命令：<pre class="line-numbers language-none"><code class="language-none">curl -O https://cdn.jsdelivr.net/gh/kjhuanhao/hexo-script@master/install.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<pre class="line-numbers language-none"><code class="language-none">source install.sh hexo_win<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">source install.sh hexo_win<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+</ul>
 <blockquote>
 <p>当看到出现<code>Please run hexo s to check it out!</code>的提示,证明安装成功,此时执行以下命令：</p>
 </blockquote>
 <pre class="line-numbers language-none"><code class="language-none">cd hexoblog  <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<pre class="line-numbers language-none"><code class="language-none">hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<pre class="line-numbers language-none"><code class="language-none">hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
 <li>此时可以看到一段地址：<a href="http://localhost:4000/">http://localhost:4000</a>, 这时在在浏览器打开就可以本地浏览了。</li>
 </ul>
 <h2 id="生成SSH密匙"><a href="#生成SSH密匙" class="headerlink" title="生成SSH密匙"></a>生成SSH密匙</h2><ul>
 <li>在存放install.sh脚本的目录中,右键打开git bash运行以下命令:<pre class="line-numbers language-none"><code class="language-none">./install.sh git_ssh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li>此时可以看到会有四条可执行命令,输入对应数字可以执行对应的命令：<blockquote>
+<li>此时可以看到会有四条可执行命令,输入对应数字可以执行对应的命令：</li>
+</ul>
+<blockquote>
 <p>1.Key  (执行1后可以一键生成秘钥如果你的电脑已经存在秘钥,程序将会自动退出)<br>2.SSH(SSH 执行2后可以查看你电脑中已生成的秘钥)<br>3.Verify-github(Verify-github 执行3后可以检查秘钥是否配置github成功)<br>4.Verify-coding(Verify-coding 执行4后可以检查秘钥是否配置coding成功)</p>
 </blockquote>
-</li>
-</ul>
 <h2 id="部署hexo博客"><a href="#部署hexo博客" class="headerlink" title="部署hexo博客"></a>部署hexo博客</h2><ul>
-<li><p>首先你需要打开根目录配置文件_config.yml  </p>
-</li>
-<li><p>找到deploy,它一般在最后一行,按照以下的格式修改即可</p>
+<li>首先你需要打开根目录配置文件_config.yml  </li>
+<li>找到deploy,它一般在最后一行,按照以下的格式修改即可</li>
+</ul>
 <blockquote>
 <p>deploy:<br> type: git<br> repo:这里填仓库地址，建议使用ssh地址<br> branch：main</p>
 </blockquote>
-</li>
+<ul>
 <li><p>您需要在存放install.sh脚本的目录中,右键打开git bash运行以下命令:</p>
 <pre class="line-numbers language-none"><code class="language-none">source install.sh deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 <li><p>然后会在该目录生成一个up.sh文件，将up.sh复制到hexoblog文件,也就是复制到你的博客根目录下</p>
