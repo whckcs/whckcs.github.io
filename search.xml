@@ -104,6 +104,23 @@ hexo g -d<span aria-hidden="true" class="line-numbers-rows"><span></span><span><
 <h2 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h2><p>谷歌收录比较简单，登录<a href="https://developers.google.com/search">谷歌站长平台</a>，添加自己的域名,进行验证（这里推荐使用CNAME）<br><img src="https://pic7.58cdn.com.cn/nowater/webim/big/n_v2e9f2351f3f184d44ab44de729111a97f.png" alt="image.png" loading="lazy"></p>
 <p>再到谷歌的Search Console，添加自己的sitemap地址<br><img src="https://pic7.58cdn.com.cn/nowater/webim/big/n_v2e89d629d4d314688b90e15925d2209ff.png" alt="image.png" loading="lazy"></p>
 <p>然后等待，和百度一样，可以谷歌：site:你的域名 进行查询是否被收录</p>
+<h1 id="改短链接"><a href="#改短链接" class="headerlink" title="改短链接"></a>改短链接</h1><blockquote>
+<p>一般来说，SEO搜索引擎优化认为，网站的最佳结构是 用户从首页点击三次就可以到达任何一个页面，但是我们使用Hexo编译的站点结构的URL是：域名/年/月/日/文章标题四层的结构，这样的URL结构很不利于SEO，爬虫就会经常爬不到我们的文章，于是，我们需要优化一下网站文章的URL</p>
+</blockquote>
+<ul>
+<li>安装hexo-addrlink<pre class="line-numbers language-none"><code class="language-none">npm install hexo-abbrlink --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>hexo配置文件加入以下配置：<pre class="line-numbers language-none"><code class="language-none"># hexo-abbrlink config 、固定文章地址插件
+abbrlink:
+  alg: crc16  #算法选项：crc16、crc32，区别见之前的文章，这里默认为crc16丨crc32比crc16复杂一点，长一点
+  rep: dec    #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+在配置文件中找到permalink，修改成下面样式：<pre class="line-numbers language-none"><code class="language-none"># URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://blog.sky03.cn
+root: /
+permalink: posts/:abbrlink.html
+permalink_defaults:<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>这样站点结构就变成了：域名/posts/xxx.html</li>
+</ul>
 ]]></content>
       <tags>
         <tag>教程，博客</tag>
@@ -205,7 +222,7 @@ hexo g -d<span aria-hidden="true" class="line-numbers-rows"><span></span><span><
 <li>vscode作为一款免费的编辑软件，功能非常强大，自定义程度高，可用于编写markdown和修改配置文件：<a href="https://code.visualstudio.com/">Vscode官网下载</a></li>
 </ul>
 <h2 id="参考文章："><a href="#参考文章：" class="headerlink" title="参考文章："></a>参考文章：</h2><p><a href="https://blog.csdn.net/qq_43285335/article/details/90696126">nodejs下载安装及配置环境</a><br><a href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">git搭建教程</a><br><a href="https://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html">使用ssh密匙连接github</a><br><a href="https://hexo.fluid-dev.com/docs/guide/">Fluid官方文档</a><br><a href="https://hexoscript.gitbook.io/hexo-script/v/1.3-1/shi-yong-bu-zhou/zhun-bei-gong-ju">hexo-script使用文档</a>  </p>
-<h2 id="进阶文章："><a href="#进阶文章：" class="headerlink" title="进阶文章："></a>进阶文章：</h2><p><a href="https://blog.sky03.cn/posts/42790.html">hexo博客优化</a></p>
+<h2 id="进阶文章："><a href="#进阶文章：" class="headerlink" title="进阶文章："></a>进阶文章：</h2><p><a href="https://whck.cc/posts/27040.html">hexo博客优化</a></p>
 ]]></content>
       <tags>
         <tag>教程</tag>
