@@ -3,7 +3,7 @@
   <entry>
     <title>Hexo自建博客进阶和优化</title>
     <url>/posts/27040.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>作者水平有限，更多信息可以参考<a href="https://hexo.io/zh-cn/docs/">Hexo文档</a>，若有问题可以在<a href="https://github.com/hexojs/hexo/issues">Hexo github</a>进行浏览和提问，或者参考相关主题文档和询问主题作者。</p>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>作者水平有限，更多信息可以参考<a href="https://hexo.io/zh-cn/docs/">Hexo文档</a>，若有问题可以在<a href="https://github.com/hexojs/hexo/issues">Hexo github</a>进行浏览和提问，或者参考相关主题文档和询问主题作者。搭建教程参考：<a href="https://whck.cc/posts/58460.html">利用hexo自建博客指南</a></p>
 <h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><h2 id="安装cnpm提升安装速度"><a href="#安装cnpm提升安装速度" class="headerlink" title="安装cnpm提升安装速度"></a>安装cnpm提升安装速度</h2><p>cnpm是阿里在国内搞的npm镜像，可以有效提升安装速度。</p>
 <ul>
 <li><p>安装cnpm</p>
@@ -123,7 +123,8 @@ permalink_defaults:<span aria-hidden="true" class="line-numbers-rows"><span></sp
 </ul>
 ]]></content>
       <tags>
-        <tag>教程，博客</tag>
+        <tag>教程</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
