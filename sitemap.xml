@@ -110,6 +110,13 @@
 
   
   <url>
+    <loc>https://whck.cc/tags/%E4%BC%A0%E6%92%AD%E5%AD%A6/</loc>
+    <lastmod>2022-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://whck.cc/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -118,13 +125,6 @@
   
   <url>
     <loc>https://whck.cc/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://whck.cc/tags/%E4%BC%A0%E6%92%AD%E5%AD%A6/</loc>
     <lastmod>2022-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
