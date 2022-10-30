@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://whck.cc/posts/53875.html</loc>
-    
-    <lastmod>2022-10-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://whck.cc/posts/27040.html</loc>
     
     <lastmod>2022-10-18</lastmod>
@@ -103,7 +94,7 @@
 
   <url>
     <loc>https://whck.cc/</loc>
-    <lastmod>2022-10-20</lastmod>
+    <lastmod>2022-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,28 +102,21 @@
   
   <url>
     <loc>https://whck.cc/tags/%E4%BC%A0%E6%92%AD%E5%AD%A6/</loc>
-    <lastmod>2022-10-20</lastmod>
+    <lastmod>2022-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://whck.cc/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-10-20</lastmod>
+    <lastmod>2022-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://whck.cc/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://whck.cc/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-10-20</lastmod>
+    <lastmod>2022-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
