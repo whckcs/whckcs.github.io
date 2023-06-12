@@ -122,6 +122,63 @@ permalink_defaults:<span aria-hidden="true" class="line-numbers-rows"><span></sp
       </tags>
   </entry>
   <entry>
+    <title>作品合集</title>
+    <url>/posts/5680.html</url>
+    <content><![CDATA[<h1 id="作品展示"><a href="#作品展示" class="headerlink" title="作品展示"></a>作品展示</h1><h2 id="视频作品"><a href="#视频作品" class="headerlink" title="视频作品"></a>视频作品</h2><ul>
+<li><a href="https://www.xinpianchang.com/a12564531?from=UserProfile">元宇宙昆明</a></li>
+</ul>
+<blockquote>
+<p> 实景拍摄，使用Ae合成，Pr剪辑</p>
+</blockquote>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1Z7411Y714/?spm_id_from=333.999.0.0&amp;vd_source=59f5a6275a9e759b8e71212d15f90269">音频可视化</a></li>
+</ul>
+<blockquote>
+<p>使用Ae合成，Pr剪辑</p>
+</blockquote>
+<ul>
+<li><a href="https://www.xinpianchang.com/a12564916">乔布斯与苹果</a></li>
+</ul>
+<blockquote>
+<p>Pr剪辑，因压制原因视频画面质量较低</p>
+</blockquote>
+<ul>
+<li><a href="https://www.xinpianchang.com/a12564950">末日求生</a></li>
+</ul>
+<blockquote>
+<p>利用Stable Diffusion进行AI创作，画出分镜画面，用微软AI进行语音合成。</p>
+</blockquote>
+<h2 id="图片作品"><a href="#图片作品" class="headerlink" title="图片作品"></a>图片作品</h2><ul>
+<li>【学院奖参赛作品】百度输入法</li>
+</ul>
+<p><img src="../media/1.jpg" loading="lazy"></p>
+<ul>
+<li>【广告宣传册】云南美食</li>
+</ul>
+<blockquote>
+<p>下方空白为方便打印所留</p>
+</blockquote>
+<p><img src="../media/2.jpg" loading="lazy"></p>
+<ul>
+<li>【摄影】学校图书馆</li>
+</ul>
+<p><img src="../media/3.jpg" loading="lazy"></p>
+<ul>
+<li>【摄影】学校足球场</li>
+</ul>
+<p><img src="../media/4.jpg" loading="lazy"></p>
+<ul>
+<li>【展板】毕业设计展板</li>
+</ul>
+<p><img src="../media/5.jpg" loading="lazy"></p>
+<h2 id="毕业设计"><a href="#毕业设计" class="headerlink" title="毕业设计"></a>毕业设计</h2><blockquote>
+<p>毕业设计为华为Mate50产品网页设计，使用Html和Css。可在电脑上直接打开链接。或者通过引导页进入，引导页面有关于毕业设计的详细信息。</p>
+</blockquote>
+<p>链接：<a href="http://whck.cc/HuaWei-Mate50/">http://whck.cc/HuaWei-Mate50/</a></p>
+<p>引导页：<a href="http://whck.cc/Graduation-Project/">点我进入</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>利用hexo自建博客指南</title>
     <url>/posts/58460.html</url>
     <content><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -225,62 +282,5 @@ permalink_defaults:<span aria-hidden="true" class="line-numbers-rows"><span></sp
       <tags>
         <tag>传播学</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>作品合集</title>
-    <url>/posts/5680.html</url>
-    <content><![CDATA[<h1 id="作品展示"><a href="#作品展示" class="headerlink" title="作品展示"></a>作品展示</h1><h2 id="视频作品"><a href="#视频作品" class="headerlink" title="视频作品"></a>视频作品</h2><ul>
-<li><a href="https://www.xinpianchang.com/a12564531?from=UserProfile">元宇宙昆明</a></li>
-</ul>
-<blockquote>
-<p> 实景拍摄，使用Ae合成，Pr剪辑</p>
-</blockquote>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV1Z7411Y714/?spm_id_from=333.999.0.0&amp;vd_source=59f5a6275a9e759b8e71212d15f90269">音频可视化</a></li>
-</ul>
-<blockquote>
-<p>使用Ae合成，Pr剪辑</p>
-</blockquote>
-<ul>
-<li><a href="https://www.xinpianchang.com/a12564916">乔布斯与苹果</a></li>
-</ul>
-<blockquote>
-<p>Pr剪辑，因压制原因视频画面质量较低</p>
-</blockquote>
-<ul>
-<li><a href="https://www.xinpianchang.com/a12564950">末日求生</a></li>
-</ul>
-<blockquote>
-<p>利用Stable Diffusion进行AI创作，画出分镜画面，用微软AI进行语音合成。</p>
-</blockquote>
-<h2 id="图片作品"><a href="#图片作品" class="headerlink" title="图片作品"></a>图片作品</h2><ul>
-<li>【学院奖参赛作品】百度输入法</li>
-</ul>
-<img src="../media/1.jpg" loading="lazy">
-
-<ul>
-<li>【广告宣传册】云南美食</li>
-</ul>
-<blockquote>
-<p>下方空白为方便打印所留</p>
-</blockquote>
-<p><img src="../media/2.jpg" loading="lazy"></p>
-<ul>
-<li><p>【摄影】学校图书馆</p>
-<p><img src="../media/3.jpg" loading="lazy"></p>
-</li>
-<li><p>【摄影】学校足球场</p>
-<p><img src="../media/4.jpg" loading="lazy"></p>
-</li>
-<li><p>【展板】毕业设计展板</p>
-<p><img src="../media/5.jpg" loading="lazy"></p>
-</li>
-</ul>
-<h2 id="毕业设计"><a href="#毕业设计" class="headerlink" title="毕业设计"></a>毕业设计</h2><blockquote>
-<p>毕业设计为华为Mate50产品网页设计，使用Html和Css。可在电脑上直接打开链接。或者通过引导页进入，引导页面有关于毕业设计的详细信息。</p>
-</blockquote>
-<p>链接：<a href="http://whck.cc/HuaWei-Mate50/">http://whck.cc/HuaWei-Mate50/</a></p>
-<p>引导页：<a href="http://whck.cc/Graduation-Project/">点我进入</a></p>
-]]></content>
   </entry>
 </search>
